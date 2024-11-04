@@ -1,0 +1,150 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1e1e1;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #0078D4;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.header button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    color: #333;
+    background: #FFD700;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.header button:hover {
+    background: #FFC107;
+}
+
+/* Roadmap Section */
+#roadmap {
+    padding: 2rem;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.timeline-item {
+    padding: 1rem;
+    background: #f7f7f7eb;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.timeline-item:hover {
+    background: #e0e0e0;
+}
+
+.topic-details {
+    margin-top: 1rem;
+}
+
+/* Roles & Responsibilities Section */
+.role-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.role-card {
+    background: #e0e0e0;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 30%;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Leaderboard & Badges */
+.leaderboard, .badges {
+    padding: 2rem;
+    text-align: center;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.badge {
+    background: #4CAF50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+/* Tasks Section */
+.task-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn-primary {
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    background: #4CAF50;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #45A049;
+}
+
+/* Discord Section */
+.btn-discord {
+    background-color: #7289DA;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.btn-discord:hover {
+    background-color: #677BC4;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

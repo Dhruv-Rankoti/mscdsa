@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Journey for MSITians</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>DSA Journey for MSITians</h1>
+        <p>Embark on your path to mastering Data Structures and Algorithms!</p>
+        <button class="btn-primary" onclick="joinNow()">Join Now</button>
+    </header>
+
+    <!-- Program Roadmap Section -->
+    <section id="roadmap">
+        <h2>Program Roadmap</h2>
+        <div class="timeline">
+            <div class="timeline-item" onclick="showTopicDetails('Arrays')">Arrays (Weeks 1-2)</div>
+            <div class="timeline-item" onclick="showTopicDetails('Linked Lists')">Linked Lists (Weeks 3-4)</div>
+            <div class="timeline-item" onclick="showTopicDetails('Trees')">Trees (Weeks 5-6)</div>
+            <div class="timeline-item" onclick="showTopicDetails('Graphs')">Graphs (Weeks 7-8)</div>
+            <!-- Add more topics as needed -->
+        </div>
+        <div id="topic-details" class="topic-details">
+            <h3>Click on a topic for details</h3>
+            <p id="topic-description">Topic details will appear here...</p>
+        </div>
+    </section>
+
+    <!-- Roles & Responsibilities Section -->
+    <section id="roles">
+        <h2>Roles & Responsibilities</h2>
+        <div class="role-container">
+            <div class="role-card">
+                <h3>DSA Department (Moderators)</h3>
+                <p>Assist participants by answering questions and moderating the Discord community.</p>
+            </div>
+            <div class="role-card">
+                <h3>Participants</h3>
+                <p>Engage actively, complete weekly tasks, and ask questions to learn and progress.</p>
+            </div>
+            <div class="role-card">
+                <h3>DSA Heads (Mentors)</h3>
+                <p>Guide participants, offer feedback, and conduct check-ins to support learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard & Badges Section -->
+    <section id="leaderboard">
+        <h2>Leaderboard & Badges</h2>
+        <div class="leaderboard">
+            <h3>Top Participants</h3>
+            <ul id="leaderboard-list">
+                <li>Participant 1 - 150 points</li>
+                <li>Participant 2 - 130 points</li>
+                <li>Participant 3 - 120 points</li>
+                <!-- More participants as needed -->
+            </ul>
+        </div>
+        <div class="badges">
+            <h3>Badges</h3>
+            <div class="badge-container">
+                <div class="badge">Array Master</div>
+                <div class="badge">Linked List Pro</div>
+                <div class="badge">Tree Expert</div>
+                <!-- Add more badges as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Challenges & Tasks Section -->
+    <section id="tasks">
+        <h2>Weekly Challenges & Tasks</h2>
+        <div class="task-container">
+            <h3>This Week’s Task: Arrays</h3>
+            <p>Learn about arrays, make notes, and practice problems.</p>
+            <button class="btn-primary" onclick="submitTask()">Submit Task</button>
+        </div>
+    </section>
+
+    <!-- Discord Integration Section -->
+    <section id="discord">
+        <h2>Join Our Discord Community</h2>
+        <p>Ask questions, interact with mentors, and collaborate with peers.</p>
+        <button class="btn-discord" onclick="joinDiscord()">Go to Discord</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Contact us: dsamsc@msit.edu</p>
+        <p>All rights reserved © 2024 MSIT DSA MSC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
